@@ -12,7 +12,7 @@ SE321 yazılım tasarımı projesi için client olan **restoran** ile yapılacak
 - Görüşmeyi mümkünse **yoğun saatlerin dışında** (ör. 15:00-17:00) ve **restoranda** yapın; depo, mutfak ve kasayı görmek çok şey anlatır.
 - Roller: **1 kişi soru sorar**, **1 kişi not alır**, (varsa) **1 kişi** süreyi ve atlanan dalları takip eder.
 - Kayıt için **izin alın**.
-- Süre hedefi: **45 dakika - 1 saat**.
+- Süre hedefi: **45 dakika - 1 saat** (mevcut sistemler dalıyla birlikte ~1 saat).
 - Mümkünse sahip/müdür dışında **aşçıbaşı veya depodan sorumlu kişi** ile de 10 dakika konuşmayı rica edin; stoğu fiilen yöneten genelde odur.
 
 ---
@@ -54,6 +54,30 @@ INTERVIEW
 │       ├─ F  Ayda ne kadar malzeme çöpe gidiyor? En çok hangileri?
 │       ├─ P  Son kullanma tarihi yaklaşan ürünü nasıl fark ediyorsunuz? (FIFO uygulanıyor mu?)
 │       └─ ⚑ P  Kayıp veya kaçak şüphesi yaşadınız mı? Nasıl anladınız?
+│
+├── B+. MEVCUT SİSTEMLER (~10 dk) ★ Ön bilgi: restoran şu an 2 sistem kullanıyor, biri ~30 yıllık
+│   ├── S1  Şu an kullandığınız iki sistemi anlatır mısınız? Her biri ne işe yarıyor?
+│   │   ├─ F  Adları ne? Hangisi 30 yıllık? Diğeri ne zamandır kullanılıyor?
+│   │   ├─ F  Hangi işler hangi sistemde yapılıyor? (stok, adisyon/satış, muhasebe, fatura, personel)
+│   │   └─ P  Ekranlarını kısaca gösterebilir misiniz? Bir günlük kullanımı birlikte izleyebilir miyiz?
+│   ├── S2  İki sistem birbiriyle konuşuyor mu?
+│   │   ├─ F  Aynı bilgiyi iki sisteme ayrı ayrı girdiğiniz oluyor mu? (çift giriş)
+│   │   │   └─ P  En son ne zaman iki sistemdeki rakamlar birbirini tutmadı? Ne yaptınız?
+│   │   └─ P  Sistemler arasında veriyi elle mi taşıyorsunuz? (Excel, kağıt, yeniden yazma)
+│   ├── S3  30 yıllık sistemde en çok neyi seviyorsunuz? Neden hâlâ kullanıyorsunuz?
+│   │   ├─ F  Yeni sistemde mutlaka korunması gereken bir alışkanlık/özellik var mı? (kısayol, ekran, rapor)
+│   │   └─ P  "Bu olmazsa geçmem" dediğiniz bir şey?
+│   ├── S4  O sistemde sizi en çok ne zorluyor?
+│   │   ├─ F  Arıza, yavaşlık, yedekleme, donanım (eski PC, yazıcı), destek veren kimse kalmadı mı?
+│   │   └─ P  Bozulursa ne olur? Daha önce bozulduğunda ne yaptınız?
+│   ├── S5  Eski sistemdeki veriler sizin için ne kadar önemli?
+│   │   ├─ F  Geçmiş kayıtlar (malzeme listesi, tedarikçi, reçete, satış) yeni sisteme taşınmalı mı? Ne kadar geriye?
+│   │   └─ P  Veriyi dışarı alabiliyor musunuz? (Excel/CSV çıktısı, yazıcı raporu, dosya) Bir örnek alabilir miyiz?
+│   ├── S6  İdeal durumda ne olmalı?
+│   │   ├─ F  İki sistemin yerine tek sistem mi, yoksa yeni sistem mevcutlarla birlikte mi çalışsın?
+│   │   └─ P  Hangisinden vazgeçmeniz daha kolay? Hangisi kesinlikle kalmalı?
+│   └── S7  Personel eski sisteme ne kadar alışkın? Yeni bir sisteme geçiş nasıl olmalı?
+│       └─ P  Bir süre iki sistem paralel çalışabilir mi? Eğitim için kimin zamanı var?
 │
 ├── C. KULLANICILAR VE PAYDAŞLAR (~6 dk)
 │   ├── Q8  Bu sistemi kimler kullanacak?
@@ -99,7 +123,7 @@ INTERVIEW
 ├── F. KISITLAR VE RİSKLER (~5 dk)
 │   ├── Q22 Bütçe, zaman veya donanım açısından bir sınır var mı?
 │   │   └─ P  Aylık ücretli bir sistemi mi, tek seferlik bir çözümü mü tercih edersiniz?
-│   ├── Q23 Daha önce stok programı denediniz mi? Neden bıraktınız?
+│   ├── Q23 Daha önce stok programı denediniz mi? Neden bıraktınız? (mevcut 2 sistem S1-S7'de soruldu; burada başka denenip bırakılanlar)
 │   └── Q24 Personelin sisteme veri girmemesi riski hakkında ne düşünüyorsunuz?
 │       └─ P  Veri girişini kim kontrol edebilir?
 │
@@ -134,6 +158,12 @@ INTERVIEW
 - "Bu olmasa ne olurdu?"
 - Sessizlik: cevaptan sonra 3-4 saniye bekleyin.
 
+**Mevcut sistemler (legacy) için dikkat edilecekler**
+- Restoran zaten 2 sistem kullanıyor, biri ~30 yıllık. Bu yüzden B+ dalı **önceliklidir**; süre kısıtlıysa D'deki ⚑ dallardan kısın.
+- 30 yıllık sistemi eleştirmeyin; personel ona alışkın ve sevdiği yanları olabilir. "Neden hâlâ kullanıyorsunuz?" sorusu gerçek gereksinimi verir.
+- Proje kapsamı netleşmeli: **yerine geçmek** mi (veri taşıma, eğitim), **yanında çalışmak** mı (entegrasyon, çift giriş riski), yoksa **sadece eksik kalan işi** (ör. stok) mi çözmek?
+- Mümkünse iki sistemden örnek ekran görüntüsü ve dışa aktarılmış veri isteyin; tasarımda veri modeli ve geçiş planı için gerekecek.
+
 **Restorana özel dikkat edilecekler**
 - **Birim karmaşası** (koli/kg/porsiyon) ve **reçete** stok sistemlerinin en zor kısmıdır; Q6 ve Q11'de mutlaka somut örnek isteyin (ör. "Bir hamburger için hangi malzemeden ne kadar gidiyor?").
 - Stoğu sahip değil, mutfak/depo personeli girecek. "Bunu yoğun bir cumartesi akşamı kim, ne zaman girecek?" sorusu gerçekçi gereksinim çıkarır.
@@ -163,6 +193,7 @@ INTERVIEW
 | Bölüm | Önemli cevaplar (client'ın sözleri) | Pain point | Gereksinim | Açık soru |
 |---|---|---|---|---|
 | B. Mevcut stok süreci | | | | |
+| B+. Mevcut sistemler | | | | |
 | C. Kullanıcılar | | | | |
 | D. Fonksiyonel | | | | |
 | E. Fonks. olmayan | | | | |
