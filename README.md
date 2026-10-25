@@ -12,6 +12,7 @@ SE321 yazılım tasarımı dersi projesi (Section 2 - Group 2). Client: **Rise G
 
 ```
 docs/
+├── kararlar.md                              # Grubun kapsam/tasarım kararları
 ├── proposal/
 │   ├── proposal-v2.md                       # Teslim edilecek kısa proposal (İngilizce)
 │   ├── proposal-v2-detayli.md               # Ayrıntılı taslak (requirements aşamasına başlangıç)
