@@ -17,7 +17,14 @@
 
 ## 1. Business Context
 
-Rise Group operates restaurant and bar venues: 4-5 branches in the summer season and 3 in winter. Each branch has a kitchen (chefs), a bar (bar staff) and receives goods from many suppliers. Purchasing personnel place orders and receive deliveries; the financial director follows cash, supplier balances and branch performance.
+Rise Group operates restaurant and bar venues: 4-5 branches in the summer season and 3 in winter, with about 250 staff over the year. Each branch has a kitchen and a bar and receives goods from many suppliers, typically twice a week, with the heaviest trade at weekends.
+
+Today the stock and purchasing workflow runs like this:
+
+1. **Request.** The bartender (alcohol, soft drinks) and the chef post what they need in a WhatsApp group. Planning is weekly.
+2. **Approval and order.** The purchasing manager approves the requests and orders from suppliers.
+3. **Receiving.** The warehouse staff member receives the goods at the door. Both the supplier and the business stamp and sign the delivery note. Goods go to the bar or the basement storeroom. A photo of the delivery note is shared on WhatsApp. Damaged goods are returned.
+4. **Recording.** The purchasing manager enters purchase invoices into KerzzPOS. Sales are exported from KerzzPOS to Excel. None of this reaches Netsis automatically.
 
 Two systems are in use today:
 
@@ -29,19 +36,22 @@ The day-to-day work between these two systems is where the problems are.
 | Role | What they do today (stock / finance) |
 |---|---|
 | Financial Director | Follows cash, credit-card totals, supplier balances and branch results; final decision maker |
-| Branch Manager [TBD: confirm role exists] | Oversees the branch's stock and daily cash |
-| Purchasing Personnel | Places orders with suppliers, receives deliveries, handles invoices and delivery notes |
-| Chef / Kitchen Staff | Uses kitchen ingredients; reports shortages and waste |
-| Bar Staff | Uses bar stock (drinks, soft drinks); reports shortages |
-| Accountant [TBD: in-house or external?] | Keeps the official records in Netsis |
+| Purchasing Manager | Approves stock requests, orders from suppliers, **enters invoice and stock data**, reports to finance |
+| Warehouse Staff | Receives deliveries and stores them; does **not** enter data today |
+| Chef | Requests kitchen ingredients |
+| Bartender | Requests bar stock (alcohol, soft drinks) |
+| Waiters, commis, bar-backs | Work with KerzzPOS only; not users of the new system |
+| Branch Manager / Accountant [TBD] | Not mentioned in the meeting; to be confirmed |
 
 ## 2. Problem Identified with the Client
 
 - **No data flow between KerzzPOS and Netsis.** Sales and purchase data are re-typed by hand, so the same information is entered more than once and errors creep in.
-- **Manual invoice and delivery-note handling.** In peak season 70-80 supplier invoices arrive per week. Each is checked and entered by hand, which creates a bottleneck.
-- **Manual stock tracking.** Stock, counts and supplier deliveries are kept on paper or scattered spreadsheets. One monthly count takes 4-5 hours and is error-prone.
+- **Manual invoice and delivery-note handling.** The client called this "our biggest problem". In peak season 70-80 supplier invoices arrive per week (76 in the week of the meeting). Discounts differ from invoice to invoice. Each invoice is checked and entered by hand.
+- **Inaccurate stock.** KerzzPOS deducts stock as sales are keyed in, but the client says its stock is "not 100% accurate". Waste and expiry are checked by hand. A monthly count takes 1-2 people 4-5 hours. The client would like to count **weekly**.
+- **No low-stock alerts.** Nothing warns the team when, for example, soft drinks fall below 50 units. Requests go through a WhatsApp group.
 - **Weak current-account and cash visibility.** Supplier balances, payments due and daily cash/credit-card totals are not available in one place.
 - **No combined branch view.** Stock levels and inter-branch transfers across 3-5 seasonal branches cannot be seen together.
+- **Security concerns.** The client considers the current POS's security weak.
 
 The client named the main priorities as: **(1) current-account / cash management, (2) invoice / delivery-note processes, (3) stock.**
 
@@ -87,15 +97,16 @@ General ledger, tax declarations, payroll and official financial statements are 
 - Stock deduction from KerzzPOS sales [TBD: needs a product-to-ingredient mapping; first version may deduct only items sold as-is, e.g. drinks].
 - Waste / spoilage records.
 - Stock counts with a count sheet, showing the difference against the system quantity.
-- Inter-branch transfers.
-- Critical-level alerts per item and branch (e.g. soft drinks), and a suggested weekly order list.
+- Inter-branch transfers [TBD: the recording is unclear on whether transfers happen today].
+- Critical-level alerts per item and branch (e.g. soft drinks below 50 units), and a suggested weekly order list.
+- *Should:* stock requests from the chef and bartender, approved by the purchasing manager (replaces the WhatsApp group).
 
 ## 4. AI-Assisted Invoice / PDF Processing
 
 | Question | Decision |
 |---|---|
 | **Document types** | (1) Supplier e-invoice / e-archive invoice (PDF, or UBL-TR XML when available); (2) delivery notes (e-delivery note PDF, or photo/scan of a paper note). Expense receipts: *Could*, later. |
-| **Extracted fields** | Header: supplier name, tax number, document number, document date, due date (invoice). Lines: product description, quantity, unit, unit price, VAT rate, line total. Totals: subtotal, VAT, grand total. |
+| **Extracted fields** | Header: supplier name, tax number, document number, document date, due date (invoice). Lines: product description, quantity, unit, unit price, discount, VAT rate, line total. Totals: subtotal, total discount, VAT, grand total. |
 | **Method** | If the e-invoice XML is available, it is read directly (no AI needed, exact data). Otherwise the PDF or photo is processed by an AI/OCR extraction service. |
 | **Product matching** | Supplier product names are mapped to our stock items. A confirmed mapping is remembered for that supplier and suggested automatically next time. |
 | **Uncertain or wrong results** | Every field gets a confidence value. Low-confidence fields, unmapped products and failed checks are **highlighted**. Automatic checks: line totals add up to the document total; VAT is computed correctly; supplier and document number are not a duplicate; delivery-note quantities match the invoice. |
@@ -130,13 +141,14 @@ Numbers are first proposals and will be confirmed with the client in the require
 |---|---|
 | USE-1 | Works in a current browser on PC, tablet and phone. Dashboards and stock entry are usable on a phone screen. |
 | USE-2 | A goods receipt from an already-extracted delivery note can be verified and approved in under 2 minutes for a 10-line document. |
-| USE-3 | A full monthly count per branch takes **under 2 hours** (today 4-5 hours) using a count list on a tablet/phone. |
+| USE-3 | A full count per branch takes **under 1.5 hours** (today 4-5 hours) using a count list on a tablet/phone, so that weekly counts become practical. |
+| USE-4 | Staff used to the current workflow can use the core screens after at most 1 day of training. The client expects a 15-day to 1-month adaptation period. |
 | PERF-1 | Normal screens load in under 2 seconds for up to 20 concurrent users across all branches. |
 
 ## 6. Expected Outcomes / Success Criteria
 
 - No re-typing of purchase invoices: each invoice is entered once (verified extraction) and prepared for Netsis.
-- Monthly count time reduced from 4-5 hours to under 2 hours per branch.
+- Count time reduced from 4-5 hours to under 1.5 hours per branch, so counts can move from monthly to weekly.
 - Supplier balances, payments due and daily cash/card totals for all branches on one screen.
 - Fewer stock-outs of critical items (e.g. soft drinks) during service [TBD: baseline from client].
 
