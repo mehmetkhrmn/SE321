@@ -2,10 +2,11 @@
 
 SE321 yazılım tasarımı dersi projesi (Section 2 - Group 2). Client: **Rise Group** (çok şubeli restoran/bar, Financial Director).
 
-**Çekirdek kapsam** ([proposal v2](docs/proposal/proposal-v2.md)): KerzzPOS (satış) ile Netsis (muhasebe) arasında çalışan, ikisinin yerine geçmeyen bir sistem:
+**Çekirdek kapsam** ([proposal v2](docs/proposal/proposal-v2.md)): **KerzzPOS'un yerine geçen**, **Netsis ile birlikte çalışan** tek sistem (Netsis resmi muhasebe olarak kalıyor):
 1. Cari ve kasa yönetimi (ön muhasebe)
 2. Fatura / irsaliye işleme (AI destekli okuma + zorunlu insan doğrulaması)
-3. Stok yönetimi (çok şube)
+3. Stok yönetimi (çok şube; satışta otomatik düşüm)
+4. POS (sadece temel işlevler: menü, masa siparişi, nakit/kart ödeme, günlük satış raporu)
 
 ## Klasör yapısı
 

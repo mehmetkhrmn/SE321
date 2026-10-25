@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Project Name** | **[PROJECT NAME]**: Stock, Invoice and Current-Account Tracking for Multi-Branch Restaurants |
+| **Project Name** | **[PROJECT NAME]**: Restaurant POS with Stock, Invoice and Current-Account Tracking |
 | **Section / Group No.** | Section 2 - Group 2 |
 | **Proposal Date** | 18/10/2026 |
 | **Group Members** | Mehmet Kahraman, İsmail Yiğit Şendur, Hakkı Can Duran, Hüseyin Esen, Batuhan Deliaslan, Umutcan Yavuz, Erden Can Aktan |
@@ -22,20 +22,20 @@ The business uses two systems that do not exchange data. **KerzzPOS** handles sa
 - **Invoices are processed by hand.** The client called this the biggest problem. In peak season 70-80 supplier invoices arrive every week, each with its own prices and discounts, and each is typed in manually.
 - **Data is entered twice.** Purchase and sales data are re-entered across KerzzPOS, Excel and Netsis, which causes mismatches.
 - **Stock is unreliable.** Stock figures in KerzzPOS are not accurate, there are no low-stock alerts, and a monthly count takes 4-5 hours.
+- **Security is a concern.** The client considers the security of the current POS weak.
 
 The client's priorities are, in order: **(1) current-account and cash records, (2) invoice and delivery-note processing, (3) stock.**
 
 ## Proposed Software Solution
 
-We propose a system that works **alongside** KerzzPOS and Netsis rather than replacing them. KerzzPOS remains the point of sale and Netsis remains the official accounting system. Our system covers the three priorities:
+We propose a single system that **replaces KerzzPOS** and **works with Netsis**, which stays as the official accounting system. Because sales are recorded in our own POS, sales, stock, invoices and cash are kept in one place. The business then works with two connected systems instead of two disconnected systems plus Excel. The system covers the client's three priorities, with the POS as the place where sales data starts:
 
-1. **Current-account and cash records (pre-accounting).** Supplier invoices and payments, payment due dates, and daily cash and card totals per branch. Approved records are prepared for transfer to Netsis. General ledger, tax and payroll stay in Netsis.
+1. **Current-account and cash records (pre-accounting).** Daily cash and card totals per branch, taken directly from POS sales. Supplier invoices, payments and payment due dates. Approved records are exported to Netsis through its import files. General ledger, tax and payroll stay in Netsis.
 2. **Invoice and delivery-note processing.** Users upload supplier invoices and delivery notes as PDF, e-invoice files or photos. The system extracts the supplier, document number, date, line items, quantities, prices, discounts, VAT and totals. Uncertain or inconsistent values are highlighted, and **a user checks and approves every document**. Only approved documents change stock or current-account records.
-3. **Stock.** Item records with unit conversion (e.g. case to bottle), stock entry from approved delivery notes, stock reduction from the daily KerzzPOS sales report (starting with items sold as-is, such as drinks), stock counts per branch, and low-stock alerts (e.g. soft drinks below 50 units).
+3. **Stock.** Item records with unit conversion (e.g. case to bottle), stock entry from approved delivery notes, automatic stock reduction on each POS sale (starting with items sold as-is, such as drinks), stock counts per branch, and low-stock alerts (e.g. soft drinks below 50 units).
+4. **POS (core functions only).** Menu items and prices, table orders, payment by cash or card, and daily sales reports per branch. Reservations, online ordering and loyalty programs are out of scope.
 
-Data is exchanged with KerzzPOS and Netsis through their existing report exports and import files; the exact formats will be confirmed with the client.
-
-Users are the financial director, the purchasing manager, warehouse staff, chefs and bar staff, each with role-based access. Purchase prices and financial data are visible only to authorized roles. All changes to financial and stock records are logged, and data is backed up daily. Specific, measurable requirements for security and data timeliness will be defined in the requirements stage.
+Users are the financial director, the purchasing manager, warehouse staff, chefs, bar staff and waiters, each with role-based access. Purchase prices and financial data are visible only to authorized roles. All changes to sales, financial and stock records are logged, and data is backed up daily. Specific, measurable requirements for security and data timeliness will be defined in the requirements stage.
 
 ## Meeting Photo with the Client
 

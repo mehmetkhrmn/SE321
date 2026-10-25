@@ -1,6 +1,7 @@
 # SE 321 Software Specification and Design: Project Proposal (Revised, v2)
 
 > Revised after instructor feedback on v1. Student IDs and e-mail addresses are omitted here because this repository is public; they stay in the submitted document.
+> **Not:** Bu taslak, grubun "KerzzPOS'un yerine yeni POS" kararından **önce** yazıldı; burada KerzzPOS yerinde kalıyor. Güncel kapsam için [kısa versiyona](proposal-v2.md) bakın.
 > **[TBD]** marks items that must be confirmed with the client or decided by the group before submission.
 
 | | |

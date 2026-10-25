@@ -10,7 +10,7 @@ Hocanın v1 proposal için verdiği feedback ve her maddeye ne yapıldığı.
 | # | Feedback | v2'de yapılan | Durum |
 |---|---|---|---|
 | 1 | POS'un adı **KerzzPOS**, "Keraspos" değil | Her yerde KerzzPOS yazıldı | ✅ |
-| 2 | Netsis asıl sorun değil; ikisini birden değiştirmek hedef olmasın | Sistem **KerzzPOS ile Netsis'in arasında** konumlandı, ikisi de yerinde kalıyor. Sınır tablosu eklendi (Bölüm 3.1) | ✅ |
+| 2 | Netsis asıl sorun değil; ikisini birden değiştirmek hedef olmasın | **Grup kararı:** yeni sistem **sadece KerzzPOS'un yerine geçiyor**; Netsis resmi muhasebe olarak kalıyor, onaylı kayıtlar Netsis'e import dosyasıyla aktarılıyor. Böylece üçüncü bir sistem eklenmiyor. POS sadece temel işlevlerle sınırlı | ✅ |
 | 3 | Öncelikler: cari/kasa, fatura/irsaliye, stok | Çekirdek kapsam bu sırayla 3 modül: M1 Cari ve Kasa, M2 Fatura/İrsaliye, M3 Stok (Bölüm 3.2) | ✅ |
 | 4 | "Accounting management" ne demek? | **Ön muhasebe** olarak tanımlandı: tedarikçi carisi, ödeme takibi, gider kaydı, günlük kasa/kart özeti, temel raporlar. Genel muhasebe, vergi, bordro hariç; Netsis'te kalıyor | ✅ |
 | 5 | AI fatura işleme: belge türü, çıkarılacak bilgi, hatalı sonuç; insan doğrulaması | Bölüm 4: belge türleri, alanlar, güven skoru, otomatik kontroller, **zorunlu "Doğrulama bekliyor" adımı**. Onaylanmayan belge stok veya cariyi değiştirmiyor. e-Fatura XML'i varsa AI'sız doğrudan okunuyor | ✅ |
