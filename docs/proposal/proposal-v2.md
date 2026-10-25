@@ -15,16 +15,11 @@
 
 ## Problem Identified with the Client
 
-Rise Group runs restaurant and bar venues: 4-5 branches in summer and 3 in winter. Stock moves through a chain of roles. The chef and the bartender post their weekly needs in a WhatsApp group. The purchasing manager approves them and orders from suppliers. Warehouse staff receive the goods at the door against a signed delivery note. The purchasing manager then enters the invoices.
+Rise Group runs restaurant and bar venues with 4-5 branches in summer and 3 in winter. Stock moves through a chain of roles: the chef and the bartender post their weekly needs in a WhatsApp group, the purchasing manager approves them and orders from suppliers, warehouse staff receive the goods against a signed delivery note, and the purchasing manager then enters the invoices.
 
-The business uses two systems that do not exchange data. **KerzzPOS** handles sales and payments. **Netsis** handles accounting and works well; the client does not see it as the problem. The problems are in the work between them:
+The business relies on two disconnected systems. KerzzPOS handles sales and payments, and Netsis handles accounting. Netsis works well and the client does not see it as the problem; the problems come from KerzzPOS and from the missing link between the two systems. Because there is no automated data flow, staff move data by hand through Excel and enter the same information more than once. Stock is tracked in KerzzPOS, but its figures are not accurate, there are no low-stock alerts, and a single monthly count takes 4-5 hours. During peak season 70-80 supplier invoices arrive every week, each with its own prices and discounts, and the client calls entering them by hand the biggest problem. The client also considers the security of the current POS weak. Finally, stock and cash figures for all branches cannot be seen in one place, which makes management harder.
 
-- **Invoices are processed by hand.** The client called this the biggest problem. In peak season 70-80 supplier invoices arrive every week, each with its own prices and discounts, and each is typed in manually.
-- **Data is entered twice.** Purchase and sales data are re-entered across KerzzPOS, Excel and Netsis, which causes mismatches.
-- **Stock is unreliable.** Stock figures in KerzzPOS are not accurate, there are no low-stock alerts, and a monthly count takes 4-5 hours.
-- **Security is a concern.** The client considers the security of the current POS weak.
-
-The client's priorities are, in order: **(1) current-account and cash records, (2) invoice and delivery-note processing, (3) stock.**
+The client's priorities are, in order: (1) current-account and cash records, (2) invoice and delivery-note processing, and (3) stock.
 
 ## Proposed Software Solution
 
