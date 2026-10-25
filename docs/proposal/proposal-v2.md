@@ -31,7 +31,9 @@ We propose a system that works **alongside** KerzzPOS and Netsis rather than rep
 
 1. **Current-account and cash records (pre-accounting).** Supplier invoices and payments, payment due dates, and daily cash and card totals per branch. Approved records are prepared for transfer to Netsis. General ledger, tax and payroll stay in Netsis.
 2. **Invoice and delivery-note processing.** Users upload supplier invoices and delivery notes as PDF, e-invoice files or photos. The system extracts the supplier, document number, date, line items, quantities, prices, discounts, VAT and totals. Uncertain or inconsistent values are highlighted, and **a user checks and approves every document**. Only approved documents change stock or current-account records.
-3. **Stock.** Item records with unit conversion (e.g. case to bottle), stock entry from approved delivery notes, stock counts per branch, and low-stock alerts (e.g. soft drinks below 50 units).
+3. **Stock.** Item records with unit conversion (e.g. case to bottle), stock entry from approved delivery notes, stock reduction from the daily KerzzPOS sales report (starting with items sold as-is, such as drinks), stock counts per branch, and low-stock alerts (e.g. soft drinks below 50 units).
+
+Data is exchanged with KerzzPOS and Netsis through their existing report exports and import files; the exact formats will be confirmed with the client.
 
 Users are the financial director, the purchasing manager, warehouse staff, chefs and bar staff, each with role-based access. Purchase prices and financial data are visible only to authorized roles. All changes to financial and stock records are logged, and data is backed up daily. Specific, measurable requirements for security and data timeliness will be defined in the requirements stage.
 
