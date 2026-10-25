@@ -1,4 +1,4 @@
-# SE321: Restoran Stok Takip Sistemi
+# SE321: Çok Şubeli Restoran için Stok, Fatura ve Cari Takip Sistemi
 
 SE321 yazılım tasarımı dersi projesi (Section 2 - Group 2). Client: **Rise Group** (çok şubeli restoran/bar, Financial Director).
 
