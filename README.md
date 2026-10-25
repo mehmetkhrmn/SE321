@@ -12,7 +12,8 @@ SE321 yazılım tasarımı dersi projesi (Section 2 - Group 2). Client: **Rise G
 ```
 docs/
 ├── proposal/
-│   ├── proposal-v2.md                       # Feedback sonrası revize proposal (İngilizce)
+│   ├── proposal-v2.md                       # Teslim edilecek kısa proposal (İngilizce)
+│   ├── proposal-v2-detayli.md               # Ayrıntılı taslak (requirements aşamasına başlangıç)
 │   └── feedback-yanitlari.md                # Feedback maddeleri ve yapılanlar, client'a açık sorular
 ├── interview/
 │   ├── semi-structured-interview-agaci.md   # Client görüşmesi soru ağacı (31 soru, 8 dal)

@@ -1,6 +1,9 @@
 # Proposal v1 Feedback: Yapılanlar
 
-Hocanın v1 proposal için verdiği feedback ve [proposal-v2](proposal-v2.md) dosyasında her maddeye ne yapıldığı.
+Hocanın v1 proposal için verdiği feedback ve her maddeye ne yapıldığı.
+
+- **Teslim edilecek kısa versiyon:** [proposal-v2.md](proposal-v2.md). Her maddeyi kısaca karşılıyor; güvenlik ve "real-time" ayrıntısı hocanın dediği gibi requirements aşamasına bırakıldı.
+- **Ayrıntılı taslak:** [proposal-v2-detayli.md](proposal-v2-detayli.md). Tablodaki "Bölüm", SEC ve TIM numaraları bu dosyaya ait; requirements aşamasında başlangıç olarak kullanılacak.
 
 **Genel mesaj:** Kapsam ders için uygun ama çok geniş. Yeni özellik eklemek yerine **yönetilebilir bir çekirdek kapsam** tanımlayın.
 
