@@ -13,7 +13,13 @@ Soru numaraları [soru ağacındaki](semi-structured-interview-agaci.md) numaral
 ## Ön bilgi (görüşmeden önce öğrenilenler)
 
 - Restoran şu an **iki sistem** kullanıyor; bunlardan **biri yaklaşık 30 yıllık**. (Kaynak: ön görüşme, 14.10.2026)
-- Bilinmeyenler: sistemlerin adları, her birinin hangi işi yaptığı, birbirleriyle bağlantısı, veriyi dışarı verip veremedikleri. Görüşmede B+ dalında (S1-S7) sorulacak.
+- İlk client toplantısı (15.10.2026, Mustafa Ulukaya, Financial Director, Rise Group) ve proposal feedback'inden öğrenilenler:
+  - Sistem 1: **KerzzPOS** (satış/POS). Sistem 2: **Netsis** (muhasebe). İkisi arasında otomatik veri akışı yok; veri elle taşınıyor.
+  - Client'a göre **Netsis asıl sorun değil**.
+  - Öncelikler: **(1) cari/kasa, (2) fatura/irsaliye, (3) stok**.
+  - Yoğun sezonda haftada 70-80 tedarikçi faturası; aylık sayım 4-5 saat.
+  - Şube sayısı: yazın 4-5, kışın 3. Restoran ve bar; roller: aşçı, bar personeli, satın alma.
+- Hâlâ bilinmeyenler: 30 yıllık olan hangisi, KerzzPOS/Netsis'ten veri nasıl dışarı alınır. Liste: [feedback-yanitlari.md](../proposal/feedback-yanitlari.md#clienta-sorulması-gerekenler-requirements-aşaması)
 
 ---
 
@@ -40,11 +46,11 @@ Soru numaraları [soru ağacındaki](semi-structured-interview-agaci.md) numaral
 
 ### B+. Mevcut sistemler (S1-S7)
 
-| | Sistem 1 (~30 yıllık) | Sistem 2 |
+| | KerzzPOS | Netsis |
 |---|---|---|
-| Adı / üreticisi | | |
-| Kaç yıldır kullanılıyor | ~30 | |
-| Hangi işler yapılıyor | | |
+| Adı / üreticisi | KerzzPOS | Netsis |
+| Kaç yıldır kullanılıyor | | |
+| Hangi işler yapılıyor | Satış / POS | Muhasebe |
 | Kimler kullanıyor | | |
 | Çalıştığı cihaz | | |
 | Sevilen yanları | | |
