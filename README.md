@@ -17,6 +17,8 @@ docs/
 │   ├── proposal-v2.md                       # Teslim edilecek kısa proposal (İngilizce)
 │   ├── proposal-v2-detayli.md               # Ayrıntılı taslak (requirements aşamasına başlangıç)
 │   └── feedback-yanitlari.md                # Feedback maddeleri ve yapılanlar, client'a açık sorular
+├── requirements/
+│   └── gereksinimler-ilk-gorusme.md         # 15.10 görüşmesinden FR/NFR, zaman damgalı kaynaklarla
 ├── interview/
 │   ├── semi-structured-interview-agaci.md   # Client görüşmesi soru ağacı (31 soru, 8 dal)
 │   └── gorusme-notlari.md                   # Görüşme sırasında/sonrasında doldurulacak notlar
@@ -30,7 +32,7 @@ docs/
 - [x] İlk client toplantısı (15.10.2026) ve proposal v1
 - [ ] Proposal'ı feedback'e göre revize etmek (v2 taslağı hazır; proje adı ve [TBD]'ler kaldı)
 - [ ] Açık soruları client'a sormak, notları `docs/interview/gorusme-notlari.md` dosyasına işlemek
-- [ ] Gereksinim listesi (fonksiyonel / fonksiyonel olmayan, MoSCoW)
+- [ ] Gereksinim listesi (fonksiyonel / fonksiyonel olmayan, MoSCoW). İlk görüşmeden çıkarılan liste hazır; MoSCoW ve teyit kaldı
 - [ ] User story ve use case'ler (Mal Kabul, Stok Sayımı, Fire Kaydı, Sipariş Oluşturma)
 - [ ] Tasarım: use case, sınıf, sequence diyagramları; mimari
 - [ ] Prototip
