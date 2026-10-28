@@ -37,7 +37,7 @@ Priority: **H** = part of the client's top three (current account/cash, invoice/
 | FR-03 | The system shall produce an end-of-day cash report showing cash total, credit-card total, entries and exits. | Meeting 1, ~14:17–14:36 | H | Stated | FR-05 |
 | FR-04 | The system shall produce revenue reports for a selected period. | Meeting 1, ~09:20–09:38 (named as a feature to keep) | H | Stated | FR-06 |
 | FR-05 | The system shall automatically extract the supplier, line items, quantities, unit prices and discounts from a supplier invoice uploaded as a PDF file. | Meeting 1, ~01:13–01:32, ~18:38, ~19:22–19:32 | H | Stated | FR-10, FR-11 |
-| FR-06 | The system shall require a user to review and approve extracted invoice data before it changes stock or current-account records. | Team proposal: extracted data changes financial and stock records, and extraction can be wrong (instructor feedback on the proposal also recommended a human verification step) | H | Proposed | FR-15 |
+| FR-06 | The system shall require a user to review and approve extracted invoice data before it changes stock or current-account records. | Team analysis, based on Meeting 1, ~01:25–01:32 (invoices are to be processed automatically) and ~24:46–24:59 (invoices must be entered correctly; "indispensable") | H | Assumed | FR-15 |
 | FR-07 | The system shall export approved invoice data to Netsis. | Meeting 1, ~01:32, ~02:25 | H | Stated | FR-14 |
 | FR-08 | The system shall record delivery notes received from suppliers. | Meeting 1, ~25:06 | H | Stated | FR-19 |
 | FR-09 | The system shall keep the stock quantity of each item for each branch. | Meeting 1, ~25:06, ~00:26 | H | Stated | FR-28 |
@@ -45,7 +45,7 @@ Priority: **H** = part of the client's top three (current account/cash, invoice/
 | FR-11 | The system shall reduce stock by the items of an order when its payment is completed. | Meeting 1, ~14:39–14:55 | H | Stated | FR-29 |
 | FR-12 | The system shall alert users when the stock of an item falls below the critical level set for that item. | Meeting 1, ~03:09–03:18 (example: soft drinks below 50) | M | Stated | FR-32, FR-33 |
 | FR-13 | The system shall support a stock count for a branch and record the difference between counted and recorded quantities. | Meeting 1, ~08:51, ~17:31–17:39 | M | Stated | FR-34 |
-| FR-14 | The system shall keep a separate order for each table, listing the ordered items. | Team analysis, based on Meeting 1, ~14:48–14:53 and the team decision to replace KerzzPOS | H | Assumed | FR-37 |
+| FR-14 | The system shall keep a separate order for each table, listing the ordered items. | Team analysis, based on Meeting 1, ~14:48–14:53 (every table has its own order slip listing the requested items) | H | Assumed | FR-37 |
 | FR-15 | The system shall record the payment of each order as cash or credit card. | Meeting 1, ~14:30 | H | Stated | FR-04, FR-39 |
 
 ## 4. Non-Functional Requirements
@@ -53,24 +53,24 @@ Priority: **H** = part of the client's top three (current account/cash, invoice/
 | ID | Category | Requirement | Source / Evidence | Priority | Status | Full v3 |
 |---|---|---|---|---|---|---|
 | NFR-01 | Security | The system shall show purchase prices, supplier agreements and profit margins only to the roles the client authorises. | Meeting 1, ~19:01–19:19 (team asked; client did not clearly confirm) | H | Assumed | NFR-02 |
-| NFR-02 | Security | The system shall require each user to log in with a personal account before any function is available. | Team proposal: the system holds financial data and is used by many staff roles | H | Proposed | NFR-03 |
-| NFR-03 | Security | The system shall log every change to invoices, cash, current-account and stock records with the user, time, old value and new value. | Team proposal: financial and stock records must be traceable | H | Proposed | NFR-04 |
-| NFR-04 | Reliability | The system shall back up its data at least once a day, so that no more than 24 hours of data can be lost. | Meeting 1, ~09:48–09:57 (backup came up as an example; client's answer unclear); numbers set by the team | M | Assumed | NFR-05 |
-| NFR-05 | Performance | The system shall handle at least 80 supplier invoices per week. | Meeting 1, ~18:33–18:56 (70-80 per week in peak season) | H | Stated | NFR-08 |
-| NFR-06 | Performance | Stock levels and reports shall reflect a completed sale within 5 seconds. | Team analysis, based on Meeting 1, ~14:55 (stock should drop on every payment); 5 seconds set by the team | M | Assumed | NFR-16 |
+| NFR-02 | Reliability | The system shall back up its data at least once a day, so that no more than 24 hours of data can be lost. | Meeting 1, ~09:48–09:57 (backup came up as an example; client's answer unclear); numbers set by the team | M | Assumed | NFR-05 |
+| NFR-03 | Reliability | After a stock count, the difference between counted and recorded stock shall be no more than 2% per item. | Meeting 1, ~03:35–03:41, ~06:15 (KerzzPOS stock is "not 100% accurate"); 2% set by the team | H | Assumed | NFR-07 |
+| NFR-04 | Performance | The system shall handle at least 80 supplier invoices per week. | Meeting 1, ~18:33–18:56 (70-80 per week in peak season) | H | Stated | NFR-08 |
+| NFR-05 | Performance | Stock levels and reports shall reflect a completed sale within 5 seconds. | Team analysis, based on Meeting 1, ~14:55 (stock should drop on every payment); 5 seconds set by the team | M | Assumed | NFR-16 |
+| NFR-06 | Scalability | The system shall support at least 5 branches operating at the same time. | Meeting 1, ~00:26 (4-5 branches in summer, 3 in winter) | H | Stated | NFR-11 |
 | NFR-07 | Usability | Staff shall be able to carry out their core tasks in the system without help within 30 days of training. | Meeting 1, ~11:38–11:43, ~23:03–23:22 (expected adaptation period: 15 days to 1 month) | M | Stated | NFR-15 |
 | NFR-08 | Portability | The system shall be usable from a mobile phone and from an office computer. | Meeting 1, ~16:59–17:05 | M | Stated | NFR-14 |
 
-**Categories covered:** Security, Reliability, Performance, Usability, Portability.
-**Proposed requirements:** FR-06, NFR-02, NFR-03 (3 of the maximum 6).
+**Categories covered:** Security, Reliability, Performance, Scalability, Usability, Portability.
+**Proposed requirements:** none. Every requirement is Stated or Assumed and is based on a point in the Meeting 1 recording.
 
 ## 5. Assumptions and Constraints
 
 | # | Type | Assumption / Constraint | Source |
 |---|---|---|---|
 | C-01 | Business | Netsis stays as the official accounting system (general ledger, tax, official books). The system exports data to Netsis and does not replace it. | Meeting 1, ~08:24–08:30; approved proposal |
-| C-02 | Business | The system replaces KerzzPOS and must keep the KerzzPOS features the client values (detailed revenue and cash reports). | Team decision (approved proposal); Meeting 1, ~07:36–07:43, ~09:36–09:38 |
-| C-03 | Legal | Sales receipts in Turkey must be issued through a certified fiscal cash-register device (ÖKC). Connecting a real device is outside this project; the prototype simulates it. The rules still need to be checked. | Team analysis |
+| C-02 | Business | The system replaces KerzzPOS and must keep the KerzzPOS features the client values (detailed revenue and cash reports). | Approved proposal; Meeting 1, ~15:54–16:07 (client wants sales and accounting in one system), ~07:36–07:43, ~09:36–09:38 |
+| C-03 | Legal | Sales receipts in Turkey must be issued through a certified fiscal cash-register device (ÖKC). Connecting a real device is outside this project; the prototype simulates it. The rules still need to be checked. | Meeting 1, ~06:29–06:30 (sales are keyed in on cash registers today), ~07:28 |
 | C-04 | Legal | Venues are inspected by the Ministry of Agriculture and Forestry for food safety; which records the system must keep for this is unknown. | Meeting 1, ~19:44–20:15 |
 | C-05 | Organisational | The number of active branches changes with the season (4-5 in summer, 3 in winter). | Meeting 1, ~00:26 |
 | C-06 | Organisational | Staff are used to the current workflow; the client expects a transition period of 15 days to 1 month. | Meeting 1, ~11:38–11:43, ~23:03–23:22 |
@@ -80,12 +80,11 @@ Priority: **H** = part of the client's top three (current account/cash, invoice/
 1. Which KerzzPOS reports do you use and must keep? Can you share screenshots of the screens (offered at ~07:02)? (FR-04, C-02)
 2. How should a sold dish reduce stock: is there a recipe for each menu item, or only items sold as-is (e.g. drinks) in the first version? (FR-11)
 3. Who may see purchase prices, supplier agreements and profit margins? (NFR-01)
-4. Is a daily backup with at most 24 hours of data loss acceptable? (NFR-04)
-5. Is a 5-second update of stock and reports after a sale acceptable? (NFR-06)
-6. Should every extracted invoice be reviewed and approved by a user before it changes stock or accounts? (FR-06)
-7. Should every user have a personal login? (NFR-02)
-8. Should every change to financial and stock records be logged with user and time? (NFR-03)
-9. Which fiscal cash-register device is used today and how is it connected to KerzzPOS? (C-03)
-10. Are items transferred between branches? The client answered "no" at ~11:14 and "yes" at ~24:18.
-11. In what format can Netsis import data? (FR-07)
-12. Which records do food-safety inspections require (expiry dates, cold chain, alcohol licence)? (C-04)
+4. Is a daily backup with at most 24 hours of data loss acceptable? (NFR-02)
+5. Is a 2% stock difference after a count acceptable? (NFR-03)
+6. Is a 5-second update of stock and reports after a sale acceptable? (NFR-05)
+7. Should every extracted invoice be reviewed and approved by a user before it changes stock or accounts? (FR-06)
+8. Which fiscal cash-register device is used today and how is it connected to KerzzPOS? (C-03)
+9. Are items transferred between branches? The client answered "no" at ~11:14 and "yes" at ~24:18.
+10. In what format can Netsis import data? (FR-07)
+11. Which records do food-safety inspections require (expiry dates, cold chain, alcohol licence)? (C-04)
