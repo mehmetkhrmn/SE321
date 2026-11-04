@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Project Name** | **[PROJECT NAME]**: Restaurant POS with Stock, Invoice and Current-Account Tracking |
+| **Project Name** | **RiseOne**: Restaurant POS with Stock, Invoice and Current-Account Tracking |
 | **Section / Group No.** | Section 2 - Group 2 |
 | **Proposal Date** | 18/10/2026 |
 | **Group Members** | Mehmet Kahraman, İsmail Yiğit Şendur, Hakkı Can Duran, Hüseyin Esen, Batuhan Deliaslan, Umutcan Yavuz, Erden Can Aktan |

@@ -18,7 +18,7 @@ Hocanın v1 proposal için verdiği feedback ve her maddeye ne yapıldığı.
 | 7 | "Real-time" ölçülebilir tanımlanmalı | "Real-time" yerine TIM-1..3: kendi sistemimizde 5 sn, KerzzPOS verisinde [TBD] gecikme, uyarıda 1 dk. Dashboard son güncelleme saatini gösteriyor | ⚠️ KerzzPOS entegrasyon yolu öğrenilmeli |
 | 8 | İş bağlamı (restoran/bar, aşçı, bar personeli, satın alma) net olmalı | Bölüm 1: Rise Group, sezonluk 3-5 şube, ~250 personel, görüşmedeki talep → onay → mal kabul → kayıt akışı, roller tablosu | ✅ |
 | 9 | Tarih "18/10/1026" → "18/10/2026" | Düzeltildi | ✅ |
-| 10 | Proje adı çok genel; daha kısa ve spesifik bir ad | Öneriler aşağıda; **grup seçecek** | ⏳ |
+| 10 | Proje adı çok genel; daha kısa ve spesifik bir ad | **RiseOne** seçildi: *RiseOne: Restaurant POS with Stock, Invoice and Current-Account Tracking* | ✅ |
 | 11 | Erden Can Aktan'ın ilk toplantıya katılmaması | Gruba ve hocaya yazılı açıklama gerekiyor. Repo public olduğu için burada tutulmuyor | ⏳ grup |
 
 ## 10. Proje adı

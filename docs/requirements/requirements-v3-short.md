@@ -1,6 +1,6 @@
 # Requirements Specification (v3, Short Version)
 
-**Project:** [PROJECT NAME]: Restaurant POS with Stock, Invoice and Current-Account Tracking
+**Project:** RiseOne: Restaurant POS with Stock, Invoice and Current-Account Tracking
 **Group:** Section 2 - Group 2
 **Client:** Mustafa Ulukaya, Financial Director, Rise Group
 **Sources:** Meeting 1 = first client meeting, 15/10/2026 (audio recording, ~25:38). Times are approximate positions in the recording.
@@ -35,7 +35,7 @@ Priority: **H** = part of the client's top three (current account/cash, invoice/
 | FR-01 | The system shall record current-account transactions. | Meeting 1, ~24:39, ~25:01 | H | Stated | FR-01 |
 | FR-02 | The system shall record cash-register entries (money in) and exits (money out). | Meeting 1, ~14:30, ~25:01 | H | Stated | FR-03 |
 | FR-03 | The system shall produce an end-of-day cash report showing cash total, credit-card total, entries and exits. | Meeting 1, ~14:17–14:36 | H | Stated | FR-05 |
-| FR-04 | The system shall produce revenue reports for a selected period. | Meeting 1, ~09:20–09:38 (named as a feature to keep) | H | Stated | FR-06 |
+| FR-04 | The system shall not require the same sales or purchase data to be entered more than once. | Meeting 1, ~01:45–02:03, ~08:39–09:06, ~15:54–16:07 | H | Stated | FR-42 |
 | FR-05 | The system shall automatically extract the supplier, line items, quantities, unit prices and discounts from a supplier invoice uploaded as a PDF file. | Meeting 1, ~01:13–01:32, ~18:38, ~19:22–19:32 | H | Stated | FR-10, FR-11 |
 | FR-06 | The system shall require a user to review and approve extracted invoice data before it changes stock or current-account records. | Team analysis, based on Meeting 1, ~01:25–01:32 (invoices are to be processed automatically) and ~24:46–24:59 (invoices must be entered correctly; "indispensable") | H | Assumed | FR-15 |
 | FR-07 | The system shall export approved invoice data to Netsis. | Meeting 1, ~01:32, ~02:25 | H | Stated | FR-14 |
@@ -77,7 +77,7 @@ Priority: **H** = part of the client's top three (current account/cash, invoice/
 
 ## 6. Open Questions (for Meeting 2)
 
-1. Which KerzzPOS reports do you use and must keep? Can you share screenshots of the screens (offered at ~07:02)? (FR-04, C-02)
+1. Which KerzzPOS reports do you use and must keep? Can you share screenshots of the screens (offered at ~07:02)? (C-02)
 2. How should a sold dish reduce stock: is there a recipe for each menu item, or only items sold as-is (e.g. drinks) in the first version? (FR-11)
 3. Who may see purchase prices, supplier agreements and profit margins? (NFR-01)
 4. Is a daily backup with at most 24 hours of data loss acceptable? (NFR-02)

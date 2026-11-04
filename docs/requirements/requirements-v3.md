@@ -1,6 +1,6 @@
 # Requirements Specification (v3)
 
-**Project:** [PROJECT NAME]: Restaurant POS with Stock, Invoice and Current-Account Tracking
+**Project:** RiseOne: Restaurant POS with Stock, Invoice and Current-Account Tracking
 **Group:** Section 2 - Group 2
 **Client:** Mustafa Ulukaya, Financial Director, Rise Group
 **Sources:** Meeting 1 = first client meeting, 15/10/2026 (audio recording, ~25:38). Times are approximate positions in the recording.
