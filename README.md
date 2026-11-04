@@ -11,13 +11,13 @@ SE321 yazılım tasarımı dersi projesi (Section 2 - Group 2). Client: **Rise G
 ## Klasör yapısı
 
 ```
-mustafa-ai-client/
-└── knowledge/                             # AI Client lab: etiketli bilgi dosyaları (Görüşme 1)
-    ├── business.md
-    ├── processes.md
-    ├── needs-and-constraints.md
-    ├── open-questions.md
-    └── glossary.md
+mustafa-ai-client/                           # AI Client lab (ders şablonu)
+├── AGENTS.md                                # Giriş noktası: rol, kurallar, dosya tablosu
+├── CLAUDE.md                                # @AGENTS.md
+├── README.md                                # Çalıştırma, test tablosu, sürüm notları
+├── persona.md                               # Mustafa kim, nasıl konuşuyor, cevap biçimi
+├── knowledge/                               # Etiketli bilgi dosyaları + transkript (Görüşme 1)
+└── skills/                                  # se321-ai-answer-as-client, se321-ai-handle-limits
 docs/
 ├── kararlar.md                              # Grubun kapsam/tasarım kararları
 ├── proposal/
