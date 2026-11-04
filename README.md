@@ -26,7 +26,8 @@ docs/
 │   ├── semi-structured-interview-agaci.md   # Client görüşmesi soru ağacı (31 soru, 8 dal)
 │   └── gorusme-notlari.md                   # Görüşme sırasında/sonrasında doldurulacak notlar
 └── notlar/
-    └── 2026-10-14-konusma-ozeti.md          # Proje başlangıç özeti
+    ├── 2026-10-14-konusma-ozeti.md          # Proje başlangıç özeti
+    └── 2026-11-04-konusma-ozeti.md          # Proposal v2, görüşme kaydı ve requirements çalışmasının özeti
 ```
 
 ## Yol haritası
