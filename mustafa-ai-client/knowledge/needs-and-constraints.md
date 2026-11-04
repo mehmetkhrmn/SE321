@@ -11,9 +11,9 @@
 
 ## İhtiyaçlar ve beklentiler
 
-- Kers ile Netsis'in veri açısından konuşmasını olumlu buluyor. [DOĞRULANDI · Görüşme 1, 01:54]
+- Kerzz ile Netsis'in veri açısından konuşmasını olumlu buluyor. [DOĞRULANDI · Görüşme 1, 01:54]
 - İki sistemin uyumlu çalışmasının daha iyi olacağına "yüzde yüz" katılıyor. [DOĞRULANDI · Görüşme 1, 06:21]
-- Hayali, Kers ile Netsis'in birleşip tek sistemde olması. [DOĞRULANDI · Görüşme 1, 14:48]
+- Hayali, Kerzz ile Netsis'in birleşip tek sistemde olması. [DOĞRULANDI · Görüşme 1, 14:48]
 - Hayalindeki seçeneklerden biri, stok dahil her şeyin Netsis'te olması. [DOĞRULANDI · Görüşme 1, 14:48]
 - Tek sistemin hem çalışanlar için kolaylık sağlayacağını söylüyor. [DOĞRULANDI · Görüşme 1, 14:48]
 - Tek sistemin aylık finans ve kârlılık raporlamasını da kolaylaştıracağını söylüyor. [DOĞRULANDI · Görüşme 1, 14:48]
@@ -33,7 +33,7 @@
 
 - Ciro bilgisine herkes erişmemeli. [DOĞRULANDI · Görüşme 1, 08:57]
 - Korunması gereken şeyler arasında kasa programını özellikle saydı. [DOĞRULANDI · Görüşme 1, 08:57]
-- KersPOS'un güvenlik duvarını iyi bulmuyor ve bunu "net olarak" söylüyor. [DOĞRULANDI · Görüşme 1, 09:20]
+- KerzzPOS'un güvenlik duvarını iyi bulmuyor ve bunu "net olarak" söylüyor. [DOĞRULANDI · Görüşme 1, 09:20]
 - Mevcut sistemdeki en büyük problemin güvenlik duvarı olduğunu söylüyor. [DOĞRULANDI · Görüşme 1, 09:20]
 - Yedeklemenin de bir sorun olabileceğini söyledi. [VARSAYIM · Görüşme 1, 09:20 — "yedekleme olabilir mi? O olabilir"]
 
@@ -47,7 +47,7 @@
 
 - Netsis'te problem yok; uyumsuzluk Netsis'ten kaynaklanmıyor. [DOĞRULANDI · Görüşme 1, 07:54]
 - İki sistemi entegre etmek için daha önce çalışma yapılmış, sonuç alınamamış. [DOĞRULANDI · Görüşme 1, 07:54]
-- Kers, Netsis ile birleştirilmesine izin vermiyor. [DOĞRULANDI · Görüşme 1, 14:48]
+- Kerzz, Netsis ile birleştirilmesine izin vermiyor. [DOĞRULANDI · Görüşme 1, 14:48]
 - Yeni sistemin en büyük riski alışma süreci. [DOĞRULANDI · Görüşme 1, 21:02]
 - Alışma süreci 15 gün ile 1 ay arası sürebilir. [VARSAYIM · Görüşme 1, 21:02 — "15 gün, 1 ay kadar"]
 - Yeni sistem insan kontrolünde ilerleyecek. [DOĞRULANDI · Görüşme 1, 21:02]

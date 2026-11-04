@@ -10,8 +10,8 @@
 - Ciro bilgisine kimler erişebilmeli? (08:57) - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Alış fiyatları, tedarikçi anlaşmaları ve kâr marjları için hassasiyet sorusu sorulduğunda (17:47) cevap iskontoya geçti. Bu bilgileri kimler görebilmeli? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Yedekleme gerçekten bir ihtiyaç mı? ("o olabilir", 09:20) - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
-- Kers'in yapısı (ana server, terminaller, gün sonu aktarım) nasıl? İşletmeci "o biraz karışık" dedi (10:04). - Kim bilebilir? Görüşmeci 2 anlattı; Kers sağlayıcısının desteği. [AÇIK SORU]
-- 30 yılı aşkın kullanılan sistem kesin olarak Kers mi? (07:54) - Kim bilebilir? Bilgiyi ekipten biri vermişti. [AÇIK SORU]
+- Kerzz'in yapısı (ana server, terminaller, gün sonu aktarım) nasıl? İşletmeci "o biraz karışık" dedi (10:04). - Kim bilebilir? Görüşmeci 2 anlattı; Kerzz sağlayıcısının desteği. [AÇIK SORU]
+- 30 yılı aşkın kullanılan sistem kesin olarak Kerzz mi? (07:54) - Kim bilebilir? Bilgiyi ekipten biri vermişti. [AÇIK SORU]
 - "Maliye için entegrasyon" nedir? Maliye hangi verilere erişiyor ve yeni sistemin bunu karşılaması zorunlu mu? (14:04) - Kim bilebilir? Görüşmeci 2 anlattı. [AÇIK SORU]
 - Kameralarla stok takibi gerçekten isteniyor mu? ("Olabilir", 16:47) - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Haftalık sayım için bir sayım en fazla ne kadar sürmeli? Soru sorulmuştu (16:16) ama müşteri bugünkü süreyi söyledi, hedef süre vermedi. - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
@@ -27,12 +27,12 @@
 
 - Mal kabulü yeni sistemde kim tarafından kaydedilecek? Bugün depocu malı alıyor ama veri girmiyor (20:30). - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Satılan bir yemek ya da içecek stokta hangi malzemeyi ne kadar düşürüyor (reçete var mı)? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
-- Hangi Kers raporları kullanılıyor ve yeni sistemde mutlaka olmalı? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
+- Hangi Kerzz raporları kullanılıyor ve yeni sistemde mutlaka olmalı? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Netsis'e veri hangi yolla ve formatta aktarılabilir? Netsis "portalinden" fatura işleme nasıl yapılıyor? (05:51) - Kim bilebilir? İşletmeci Netsis'in videosunu çekmeyi önerdi (21:40). [AÇIK SORU]
 - Gelen faturaların ne kadarı PDF, ne kadarı e-fatura, ne kadarı kâğıt? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Yeni sistemi kaç kişi, hangi rollerle kullanacak? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Fire ve kayıp miktarları ne kadar, kayıt altına alınıyor mu? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
-- Yazarkasa cihazı olarak ne kullanılıyor ve Kers'e nasıl bağlı? (Yazar kasadan tuşlama yapıldığı ekip tarafından söylendi, 06:08.) - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
+- Yazarkasa cihazı olarak ne kullanılıyor ve Kerzz'e nasıl bağlı? (Yazar kasadan tuşlama yapıldığı ekip tarafından söylendi, 06:08.) - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 - Hangi işletmeler yazın açılıp kışın kapanıyor; kapanan işletmenin verileri ne oluyor? - Kim bilebilir? Transkriptte belirtilmedi. [AÇIK SORU]
 
 ## Takip edilecekler

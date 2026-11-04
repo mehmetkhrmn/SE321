@@ -29,24 +29,24 @@
 
 ## Fatura ve veri girişi
 
-- Alış faturaları Kers'e giriliyor. [DOĞRULANDI · Görüşme 1, 05:51]
+- Alış faturaları Kerzz'e giriliyor. [DOĞRULANDI · Görüşme 1, 05:51]
 - Netsis'te faturalar Netsis portalinden işleniyor. [DOĞRULANDI · Görüşme 1, 05:51]
 - Faturalar koli olarak değil, adet olarak işleniyor. [DOĞRULANDI · Görüşme 1, 07:22]
 - Fatura işlenirken adetle "çarpı" yapılıyor. [DOĞRULANDI · Görüşme 1, 07:22]
-- Kers'te fatura girilirken birim tutar giriliyor. [DOĞRULANDI · Görüşme 1, 18:09]
-- Kers'te iskonto, birim tutarın yanındaki ayrı bir alana giriliyor. [DOĞRULANDI · Görüşme 1, 18:09]
+- Kerzz'de fatura girilirken birim tutar giriliyor. [DOĞRULANDI · Görüşme 1, 18:09]
+- Kerzz'de iskonto, birim tutarın yanındaki ayrı bir alana giriliyor. [DOĞRULANDI · Görüşme 1, 18:09]
 - İskonto her faturada aynı olmadığı için manuel giriliyor. [DOĞRULANDI · Görüşme 1, 18:09]
 - Verileri satın almacı giriyor. [DOĞRULANDI · Görüşme 1, 20:16]
 - Girilen veriler en son finansa raporlanıyor. [DOĞRULANDI · Görüşme 1, 20:16]
 
 ## Satış ve stok
 
-- Satışlar Kers'ten çekiliyor. [DOĞRULANDI · Görüşme 1, 02:18]
+- Satışlar Kerzz'den çekiliyor. [DOĞRULANDI · Görüşme 1, 02:18]
 - Satış ve alış verileri Excel'e aktarılıyor. [DOĞRULANDI · Görüşme 1, 02:18]
-- Bu veriler Netsis'e işlenmiyor; süreç yalnızca Kers ve Excel üzerinden manuel ilerliyor. [DOĞRULANDI · Görüşme 1, 02:18]
-- Kers'te stok alış faturalarıyla giriliyor ve oradan düşülüyor. [DOĞRULANDI · Görüşme 1, 05:51]
-- Kers'te stok tutuluyor ama veriler yüzde yüz doğru değil. [DOĞRULANDI · Görüşme 1, 03:32]
-- Kers'te stoğun satış tuşlandıkça alış faturasından düştüğü Görüşmeci 2'nin anlatımı. [VARSAYIM · ekip yorumu]
+- Bu veriler Netsis'e işlenmiyor; süreç yalnızca Kerzz ve Excel üzerinden manuel ilerliyor. [DOĞRULANDI · Görüşme 1, 02:18]
+- Kerzz'de stok alış faturalarıyla giriliyor ve oradan düşülüyor. [DOĞRULANDI · Görüşme 1, 05:51]
+- Kerzz'de stok tutuluyor ama veriler yüzde yüz doğru değil. [DOĞRULANDI · Görüşme 1, 03:32]
+- Kerzz'de stoğun satış tuşlandıkça alış faturasından düştüğü Görüşmeci 2'nin anlatımı. [VARSAYIM · ekip yorumu]
 - İsraf, bozulma ve son kullanma tarihi kontrolü manuel yapılıyor. [DOĞRULANDI · Görüşme 1, 03:22]
 
 ## Sayım
@@ -65,13 +65,13 @@
 ## Kasa ve raporlama
 
 - Gün sonunda kasa nakit, kredi kartı, girişler ve çıkışlar görülüyor. [DOĞRULANDI · Görüşme 1, 13:21]
-- Bu gün sonu bilgileri Kers sisteminde görülüyor. [DOĞRULANDI · Görüşme 1, 13:21]
+- Bu gün sonu bilgileri Kerzz sisteminde görülüyor. [DOĞRULANDI · Görüşme 1, 13:21]
 - Finansta aylık raporlama ve kârlılık raporlaması yapılıyor. [DOĞRULANDI · Görüşme 1, 14:48]
 
 ## Sistemler arası iş
 
-- Kers ile Netsis veri açısından konuşmadığı için iş iki kez yapılıyor. [DOĞRULANDI · Görüşme 1, 01:54]
-- Kers'teki veriler manuel gidiyor; Netsis'teki veriler şeffaf ilerliyor; ikisi birbirine uymuyor. [DOĞRULANDI · Görüşme 1, 07:54]
+- Kerzz ile Netsis veri açısından konuşmadığı için iş iki kez yapılıyor. [DOĞRULANDI · Görüşme 1, 01:54]
+- Kerzz'deki veriler manuel gidiyor; Netsis'teki veriler şeffaf ilerliyor; ikisi birbirine uymuyor. [DOĞRULANDI · Görüşme 1, 07:54]
 - Birini sistem, diğerini insan yönettiği için iki taraf arasında çatışma yaşanıyor. [DOĞRULANDI · Görüşme 1, 08:31]
 
 ## Denetim

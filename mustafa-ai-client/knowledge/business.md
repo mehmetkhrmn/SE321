@@ -27,25 +27,25 @@
 
 ## Kullanılan sistemler
 
-- Satış ve POS için KersPOS (Kers) kullanılıyor. [DOĞRULANDI · Görüşme 1, 01:43]
+- Satış ve POS için KerzzPOS (Kerzz) kullanılıyor. [DOĞRULANDI · Görüşme 1, 01:43]
 - Muhasebe programı olarak Netsis kullanılıyor. [DOĞRULANDI · Görüşme 1, 01:43]
-- Kers ve Netsis birbirinden bağımsız kullanılıyor. [DOĞRULANDI · Görüşme 1, 05:33]
+- Kerzz ve Netsis birbirinden bağımsız kullanılıyor. [DOĞRULANDI · Görüşme 1, 05:33]
 - Netsis'te faturalar ve cari dökümü takip ediliyor. [DOĞRULANDI · Görüşme 1, 03:32]
-- Kers'te ödemede adisyonla entegre çalışıp stoktan düşen bir yapı şu an var. [DOĞRULANDI · Görüşme 1, 13:38]
-- Kers'in raporlaması ayrıntılı; hemen hemen istenen her raporu veriyor. [DOĞRULANDI · Görüşme 1, 07:03]
+- Kerzz'de ödemede adisyonla entegre çalışıp stoktan düşen bir yapı şu an var. [DOĞRULANDI · Görüşme 1, 13:38]
+- Kerzz'in raporlaması ayrıntılı; hemen hemen istenen her raporu veriyor. [DOĞRULANDI · Görüşme 1, 07:03]
 - Piyasada alternatif yazar kasa POS sistemleri var. [DOĞRULANDI · Görüşme 1, 07:03]
-- Alternatif sistemler Kers kadar donanımlı değil; çoğu stok takibi yapmıyor. [DOĞRULANDI · Görüşme 1, 07:03]
-- Kers'in "bayağı donanım şeyleri" var. [DOĞRULANDI · Görüşme 1, 07:54]
-- Kullanılan sistemlerden birinin 30 yılı aşkın süredir kullanıldığı, bunun Kers olduğu bir ekip üyesinin bilgisine dayanıyor. [VARSAYIM · Görüşme 1, 07:54 — "30 yılı aşkın Kers'i dediği gibi"]
-- Kers'in bir ana server ve terminallerden oluştuğu; verinin lokal işlenip gün sonunda ana server'a gittiği; ana server yokken diğerlerinin çalışmadığı Görüşmeci 2 ve 4'ün anlatımı. İşletmeci bu konuda "o biraz karışık" dedi. [VARSAYIM · ekip yorumu]
-- Kers'te sık arıza yaşanmıyor. [DOĞRULANDI · Görüşme 1, 13:00]
-- Kers sağlayıcısından destek alıyorlar. [DOĞRULANDI · Görüşme 1, 13:00]
+- Alternatif sistemler Kerzz kadar donanımlı değil; çoğu stok takibi yapmıyor. [DOĞRULANDI · Görüşme 1, 07:03]
+- Kerzz'in "bayağı donanım şeyleri" var. [DOĞRULANDI · Görüşme 1, 07:54]
+- Kullanılan sistemlerden birinin 30 yılı aşkın süredir kullanıldığı, bunun Kerzz olduğu bir ekip üyesinin bilgisine dayanıyor. [VARSAYIM · Görüşme 1, 07:54 — "30 yılı aşkın Kerzz'i dediği gibi"]
+- Kerzz'in bir ana server ve terminallerden oluştuğu; verinin lokal işlenip gün sonunda ana server'a gittiği; ana server yokken diğerlerinin çalışmadığı Görüşmeci 2 ve 4'ün anlatımı. İşletmeci bu konuda "o biraz karışık" dedi. [VARSAYIM · ekip yorumu]
+- Kerzz'de sık arıza yaşanmıyor. [DOĞRULANDI · Görüşme 1, 13:00]
+- Kerzz sağlayıcısından destek alıyorlar. [DOĞRULANDI · Görüşme 1, 13:00]
 - Desteğin 7/24 uzaktan bağlantıyla verildiği ve sistemsel arızaların genelde uzaktan çözüldüğü Görüşmeci 2'nin anlatımı. [VARSAYIM · ekip yorumu]
 
 ## Daha önce denenen sistem
 
 - Enzo'da Mobres adlı bir sistem çok kısa süre kullanıldı. [DOĞRULANDI · Görüşme 1, 12:09]
-- Mobres, Kers kadar aktif ve verimli olmadığı için bırakıldı. [DOĞRULANDI · Görüşme 1, 12:18]
+- Mobres, Kerzz kadar aktif ve verimli olmadığı için bırakıldı. [DOĞRULANDI · Görüşme 1, 12:18]
 - Mobres'te raporlar neredeyse yoktu. [DOĞRULANDI · Görüşme 1, 12:18]
 - Mobres'in manuel ve çok basitleştirilmiş, adisyon çıkarmaya yönelik bir sistem olduğu Görüşmeci 2'nin anlatımı. [VARSAYIM · ekip yorumu]
 
