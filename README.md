@@ -11,7 +11,7 @@ SE321 yazılım tasarımı dersi projesi (Section 2 - Group 2). Client: **Rise G
 ## Klasör yapısı
 
 ```
-rise-group-ai-client/
+mustafa-ai-client/
 └── knowledge/                             # AI Client lab: etiketli bilgi dosyaları (Görüşme 1)
     ├── business.md
     ├── processes.md
